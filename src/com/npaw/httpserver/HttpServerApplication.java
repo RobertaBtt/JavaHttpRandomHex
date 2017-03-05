@@ -70,7 +70,6 @@ public class HttpServerApplication {
 		
 		MessageDigest md;
 		StringBuffer sb ;
-		System.out.println(nowDateString);
 		try {
 			md = MessageDigest.getInstance("MD5");
 			byte[] array = md.digest(nowDateString.getBytes());
